@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int X = 5;
+    int Y;
+
+    ++X;
+
+    int temporal = X;
+    X--;
+
+    Y = temporal * temporal;
+
+    cout << "X = " << X << endl;
+    cout << "Y = " << Y << endl;
+
+    return 0;
+}
